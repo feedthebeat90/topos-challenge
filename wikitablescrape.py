@@ -39,8 +39,9 @@ def scrape(url, output_name):
 
 def first_row_check(header):
     """This function checks whether there is a column in header row
-    spanning multiple subcolumns under the same category. If there is such a
-    column it adds
+    spanning multiple subcolumns under the same category. 
+    If there is such a column this function will reapeat the header element
+    for each one of the corresponding subcolumns.
     
     ARGS:
         header (bs4.Tag): The bs4 Tag object being analyzed.
