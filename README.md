@@ -37,7 +37,7 @@ However, Topos Assignment involved reading a Wikipedia Table that had an additio
 
 - Some data Cells from the "Header Row" Span Multiple Subcolumns
 
-To solve the additional requirement I coded the following function:
+To solve the additional requirement I coded the following function (also in "wikitablescrape.py"):
 
 #### def first_row_check(header):
 
