@@ -5,7 +5,7 @@ In order to complete the following challenge I based my work on the following re
 
 https://github.com/rocheio
 
-(See LICENSE file attach for Copyright purposes)
+(See LICENSE file attached for Copyright purposes)
 
 -----------------------------------------------------------------------------------------------------------------------------------
 
@@ -37,7 +37,7 @@ However, Topos Assignment involved reading a Wikipedia Table that had an additio
 
 - Some data Cells from the "Header Row" Span Multiple Subcolumns
 
-To solve the additional requirement I added the following function:
+To solve the additional requirement I coded the following function:
 
 #### def first_row_check(header):
 
@@ -53,7 +53,7 @@ To solve the additional requirement I added the following function:
 As an extension to the Challenge I looked a second table on wikipedia that included additional geographical information
 (i.e. Area information splitted in land and water area by city and state).
 
-I loaded both tables into Pandas Dataframes and performed a join between them. 
+I loaded both tables into a Pandas Dataframes and performed a join between them. 
 
 Implementation: DataMerge.ipynb
 
