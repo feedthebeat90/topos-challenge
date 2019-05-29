@@ -9,7 +9,8 @@ https://github.com/rocheio
 
 -----------------------------------------------------------------------------------------------------------------------------------
 
-Installation
+### Installation
+
 This is a Python 3 module that depends on the Beautiful Soup and requests packages.
 
 ### Create and activate a virtualenv for Python 3
@@ -38,7 +39,7 @@ However, Topos Assignment involved reading a Wikipedia Table that had an additio
 
 To solve the additional requirement I added the following function:
 
-def first_row_check(header):
+#### def first_row_check(header):
 
     """
     This function checks whether there is a column in header row
@@ -53,7 +54,9 @@ As an extension to the Challenge I looked a second table on wikipedia that inclu
 (i.e. Area information splitted in land and water area by city and state).
 
 I loaded both tables into Pandas Dataframes and performed a join between them. 
+
 Implementation: DataMerge.ipynb
+
 Output File: topos_table.csv
 
 
