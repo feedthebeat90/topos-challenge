@@ -55,6 +55,10 @@ As an extension to the Challenge I looked a second table on wikipedia that inclu
 
 I loaded both tables into a Pandas Dataframes and performed a join between them. 
 
+Additionally, I cleaned data a bit by :
+- Removing units and special characters from several columns of the final DataFrame
+- Extracting latitude and longitude in a useful format
+
 Implementation: DataMerge.ipynb
 
 Output File: topos_table.csv
