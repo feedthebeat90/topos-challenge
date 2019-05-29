@@ -12,11 +12,11 @@ https://github.com/rocheio
 Installation
 This is a Python 3 module that depends on the Beautiful Soup and requests packages.
 
-# Create and activate a virtualenv for Python 3
+### Create and activate a virtualenv for Python 3
 python3 -m venv venv
 . venv/bin/activate
 
-# Install requirements from pip
+### Install requirements from pip
 pip install -r requirements.txt
 
 ------------------------------------------------------------------------------------------------------------------------------------
@@ -36,10 +36,12 @@ However, Topos Assignment involved reading a Wikipedia Table that had an additio
 
 - Some data Cells from the "Header Row" Span Multiple Subcolumns
 
-To solve said additional requirement I added the following function:
+To solve the additional requirement I added the following function:
 
 def first_row_check(header):
-    """This function checks whether there is a column in header row
+
+    """
+    This function checks whether there is a column in header row
     spanning multiple subcolumns under the same category. 
     If there is such a column this function will reapeat the header element
     for each one of the corresponding subcolumns.
